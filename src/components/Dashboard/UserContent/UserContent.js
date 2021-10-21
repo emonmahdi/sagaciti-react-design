@@ -4,7 +4,7 @@ import './UserContent.css'
 
 const UserContent = () => {
     return (
-        <div className="col-lg-9 bg-light p-5 text-start ">
+        <div className="col-lg-9 col-md-9  bg-light p-5 text-start ">
             <h4 className='mb-4'>My Courses</h4>
             <div className="row">
                 <div className="col-lg-4">

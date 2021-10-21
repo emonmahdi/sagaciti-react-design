@@ -5,7 +5,7 @@ import profileImg from '../img/profile.png'
 
 const UserPanel = () => {
     return (
-        <div className="col-lg-3 bg-dark p-5">
+        <div className="col-lg-3 col-md-9 bg-dark p-5">
             <div className="user-profile text-light">
                 <div className="img">
                     <img src={profileImg} className='img-fluid' alt="" />
@@ -25,6 +25,9 @@ const UserPanel = () => {
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-bookmark"></i> Grades</a> 
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-power-off"></i> Logout</a> 
                         </li>
                     </ul>
                 </div>

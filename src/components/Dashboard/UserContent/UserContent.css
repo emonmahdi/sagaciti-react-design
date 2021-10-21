@@ -5,6 +5,9 @@
 .single-card-course h4{
     margin:15px 0;
 }
+.course-img img{
+    width: 100%;
+}
 hr{
     height: 10px!important;
     width: 100%;
