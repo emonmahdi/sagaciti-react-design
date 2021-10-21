@@ -16,7 +16,8 @@ const Header = () => {
                     <Nav.Link as={Link}  to="/feature">Features</Nav.Link>
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
                     <Nav.Link as={Link} to="/dashboard" className=' '>Dashboard</Nav.Link>
-                    <Nav.Link as={Link} to="/signin" className='btn btn-primary text-light'>Sign In</Nav.Link>
+                    <Nav.Link as={Link} to="/signin" className='btn btn-primary text-light me-2'>Sign In</Nav.Link>
+                    <Nav.Link as={Link} to="/signup" className='btn btn-dark text-light'>Sign Up</Nav.Link>
                 </Nav> 
                  
             </Navbar.Collapse>

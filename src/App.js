@@ -6,6 +6,7 @@ import SignIn from './components/SignIn/SignIn';
 import Feature from './components/Home/Feature/Feature';
 import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route exact path='/signin'>
                <SignIn></SignIn>
+            </Route>
+            <Route exact path='/signup'>
+               <SignUp></SignUp>
             </Route>
             <Route exact path='/feature'>
                 <Feature></Feature>

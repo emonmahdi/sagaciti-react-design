@@ -3,7 +3,8 @@
 }
  @media screen and (max-width: 768px) {
     .signForm{
-        width: 80%!important;
+        width: 90%!important;
+        margin: 20px;
     }
     .box{
         margin-bottom: 20px;

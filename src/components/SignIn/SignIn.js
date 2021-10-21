@@ -6,7 +6,7 @@ const SignIn = () => {
     return (
         <div>
              <div className='mt-5'>
-                 <form className='w-50  p-5 border mx-auto '>
+                 <form className='w-50 signForm p-5 border mx-auto '>
                      <h3 className='fw-bold mb-5'>Sign In</h3>
                      <label className='fw-bold mb-2' htmlFor="">Email: </label>
                      <br />
