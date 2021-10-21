@@ -4,18 +4,23 @@ import Header from './components/Home/Header/Header';
 import { BrowserRouter , Switch, Route } from 'react-router-dom';
 import SignIn from './components/SignIn/SignIn';
 import Feature from './components/Home/Feature/Feature';
+import Dashboard from './components/Dashboard/Dashboard';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className="App">  
-       <BrowserRouter>
-       <Header></Header>
+       <BrowserRouter> 
+          <Home></Home>
           <Switch>
             <Route exact path='/'>
-                <Header></Header>
+                
             </Route>
-            <Route exact path='/home'>
-              <Header></Header>
+            <Route exact path='/home'> 
+            
+            </Route>
+            <Route exact path='/dashboard'>
+              <Dashboard></Dashboard>
             </Route>
             <Route exact path='/signin'>
                <SignIn></SignIn>
