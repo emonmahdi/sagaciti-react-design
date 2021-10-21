@@ -1,0 +1,13 @@
+.single-card-course {
+    background-color: #fff;
+    border:1px solid #ddd;
+}
+.single-card-course h4{
+    margin:15px 0;
+}
+hr{
+    height: 10px!important;
+    width: 100%;
+    background-color: #95BBDF;
+    border-radius: 10px;
+}

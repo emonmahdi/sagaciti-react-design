@@ -1,0 +1,31 @@
+.user-profile{
+    padding: 15px;
+}
+.img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.user-profile h4{
+    margin:15px 0;
+}
+.dashboard-item{
+    margin-top: 30px;
+}
+.dashboard-item ul li{
+    list-style: none;
+    text-align: left;
+    margin:12px 0;
+    padding:5px 12px;
+}
+.dashboard-item ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.dashboard-item ul li:hover{
+    background-color: #0F52BA;
+    border-radius:6px;
+}
+.dashboard-item ul li i{
+    margin-right: 10px;
+}
