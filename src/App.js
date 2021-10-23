@@ -8,6 +8,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
 import SignUp from './components/SignUp/SignUp';
 import CourseDetails from './components/Dashboard/CourseDetails/CourseDetails';
+import AssignmentContent from './components/Dashboard/AssignmentContent/AssignmentContent';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             </Route>
             <Route exact path='/feature'>
                 <Feature></Feature>
+            </Route>
+            <Route exact path='/assignmentcontent'>
+                <AssignmentContent></AssignmentContent>
             </Route>
           </Switch>
        </BrowserRouter>

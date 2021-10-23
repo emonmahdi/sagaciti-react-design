@@ -33,6 +33,9 @@ const UserPanel = () => {
                         <li> 
                              <Link to='/coursedetails'>Course Details</Link> 
                         </li>
+                        <li> 
+                             <Link to='/assignmentcontent'>Assignment</Link> 
+                        </li>
                     </ul>
                 </div>
             </div>

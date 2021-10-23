@@ -24,7 +24,7 @@ const UserContent = () => {
                         </div>
                         <div className="process my-3">
                             <p>0.00% <span>Complete</span></p>
-                            <hr />
+                            <hr className='hr' />
                         </div>
                        </div>
                     </div>
