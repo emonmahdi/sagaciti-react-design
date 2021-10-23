@@ -1,0 +1,14 @@
+.accordion-list{
+    margin: 80px 0;
+}
+.single-accordion{
+    margin-bottom: 15px;
+}
+.card-header{
+    text-align: left;
+}
+.card-header button{
+    font-size: 20px;
+    font-weight: bold; 
+    text-decoration: none;
+}

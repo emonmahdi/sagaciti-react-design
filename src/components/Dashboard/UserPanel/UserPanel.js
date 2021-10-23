@@ -1,6 +1,7 @@
 import React from 'react';
 import './UserPanel.css'
 import profileImg from '../img/profile.png'
+import { Link } from 'react-router-dom';
 
 
 const UserPanel = () => {
@@ -28,6 +29,9 @@ const UserPanel = () => {
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-power-off"></i> Logout</a> 
+                        </li>
+                        <li> 
+                             <Link to='/coursedetails'>Course Details</Link> 
                         </li>
                     </ul>
                 </div>

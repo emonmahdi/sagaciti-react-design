@@ -1,4 +1,5 @@
 import React from 'react';
+import CourseDetails from './CourseDetails/CourseDetails';
 
 import './Dashboard.css'
 import UserContent from './UserContent/UserContent';
@@ -11,7 +12,7 @@ const Dashboard = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <UserPanel></UserPanel>
-                        <UserContent></UserContent>
+                        <UserContent></UserContent> 
                     </div>
                 </div>
              </div>
