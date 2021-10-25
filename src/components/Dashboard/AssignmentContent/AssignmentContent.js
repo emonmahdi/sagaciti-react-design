@@ -4,7 +4,7 @@ import './AssignmentContent.css'
 
 const AssignmentContent = () => {
     return (
-        <div> 
+        <div className="col-lg-9 col-md-9  bg-light p-5 text-start "> 
             <div className="content">
                 <div className="container">
                     <div className="row">

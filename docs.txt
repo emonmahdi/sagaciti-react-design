@@ -2,6 +2,10 @@ Header component in navbar section
 SignIn component in Sign in Page 
 Dashboard component user dashboard(UserPanel)component and course(UserContent) component card item
 
+Dashboard->SignIn -> Login Form
+Dashboard->SignUp -> Registration form
+
+
 Dashboard component  courseDetails -- e course er accordion thkbe
 Dashboard->UserPanel-> Dashboard user  
 Dashboard->UserContent-> course items

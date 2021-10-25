@@ -15,8 +15,7 @@ const Dashboard = () => {
                         <UserContent></UserContent> 
                     </div>
                 </div>
-             </div>
-            
+             </div> 
         </div>
     );
 };

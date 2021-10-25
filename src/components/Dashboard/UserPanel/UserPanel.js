@@ -15,11 +15,12 @@ const UserPanel = () => {
                 <div className="dashboard-item">
                     <ul>
                         <li> 
-                            <a href="#"><i className="fas fa-book-open"></i> My Courses</a>
-                            </li>
-
-                        <li>
-                            <a href="#"><i class="fas fa-baseball-ball"></i> Assignmnet</a> 
+                            <i className="fas fa-book-open"></i>  
+                            <Link to='/mycourses'>My Courses</Link>
+                            </li> 
+                        <li> 
+                            <i class="fas fa-baseball-ball"></i> 
+                            <Link to='/assignmentcontent'>Assignment</Link>
                         </li>
                         <li>
                             <a href="#"><i class="fas fa-user"></i> My Profile</a> 

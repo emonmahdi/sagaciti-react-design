@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import courseImg from './course-img.jpg'
 import './UserContent.css'
 
@@ -13,7 +14,10 @@ const UserContent = () => {
                             <img src={courseImg} className='img-fluid' alt="" />
                         </div>
                         <div className="all-item-card p-3">
-                        <h4>React JS</h4>
+                        <h4> 
+                            <Link to='/coursedetails'>React JS</Link>
+                        </h4>
+                        
                         <div className="rating">
                             <i class="far fa-star text-warning me-1"></i>
                             <i class="far fa-star text-warning me-1"></i>
